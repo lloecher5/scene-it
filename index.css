@@ -1,0 +1,75 @@
+body {
+  background-color: #b2e9fd;
+}
+
+.header h2 {
+  color: #dc4247;
+}
+
+.header p {
+  color: #50524f;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+/* makes the div wwhere the movies are added into a flexbox */
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* starts each image at 30% width of the flexbox container */
+.movie {
+  margin: 10px;
+  flex: 0 0 30%;
+  text-align: center;
+}
+
+/* custom made cards using background colors */
+
+/* this flexbox allows the year and the title to be on the same line */
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  width: 300px;
+  margin: auto;
+}
+.bottom p {
+  font-weight: bolder;
+  color: red;
+  border-radius: 20%;
+  padding: 2px;
+  margin-top: 2px;
+}
+
+#add {
+  padding: 5px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  background-color: blue;
+  color: white;
+}
+
+.button {
+  background-color: lightgray;
+  width: 300px;
+  margin: auto;
+  margin-top: -5px;
+}
+
+/* centers the anchor tag */
+
+a {
+  display: block;
+  margin: auto;
+}
+
+/* makes all the images have the same width */
+img {
+  width: 300px;
+}
